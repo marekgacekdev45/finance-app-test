@@ -1,9 +1,6 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import { UserButton } from '@clerk/nextjs'
+import { User } from 'lucide-react'
 
 export default function Home() {
-  return (
-<p>this is an autenticated routre</p>
-    
-  );
+	return <UserButton/>
 }
