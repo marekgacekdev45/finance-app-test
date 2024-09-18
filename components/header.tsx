@@ -1,6 +1,7 @@
 import React from 'react'
 import HeaderLogo from './header-logo'
 import Navigation from './navigation'
+import { UserButton } from '@clerk/nextjs'
 
 const Header = () => {
 	return (
@@ -10,7 +11,9 @@ const Header = () => {
 					<div className='flex items-center lg:gap-x-16'>
 						<HeaderLogo />
                         <Navigation/>
+						
 					</div>
+					<UserButton/>
 				</div>
 			</div>
 		</header>
